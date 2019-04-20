@@ -1,0 +1,104 @@
+@font-face{
+    font-famiy:"Yekan";
+    src: url(../font/Yekan.eot),
+    url(../font/Yekan.woff) format("woff"),
+    url(../font/Yekan.ttf) format("truetype"),
+    url(../font/Yekan.svg) format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+body{
+    font-family: "Yekan";
+    direction:rtl;
+}
+.container{
+    max-width: 80%;
+    margin:0 auto;
+    
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    display: flex;
+  
+    
+}
+
+header nav a{
+    text-decoration: one;
+    color:#fff;
+
+}
+header{
+background-color: #35424a;
+min-height:70px;
+padding-top:30px;
+border-bottom: 3px solid #e8491d
+}
+.branding{
+    float:right;
+}
+header nav{
+    float: left;
+}
+heder ul li{
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    color:#fff
+}
+span{
+    color:#f00;
+}
+.container2 {
+    position: relative;
+    
+  }
+ 
+ 
+  .text-block {
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .text-block h2{
+      font-size: 70px;
+      text-align: center;
+  }
+  .text-block p{
+      text-align: center;
+      font-size: 20px;
+  }
+  footer{
+    background-color: rgb(1, 24, 1);
+   color:#fff;
+   height: 60px;
+   padding-top: 60px;
+
+    }
+   input[type="button"]{
+       background-color: #f00;
+       color: #fff;
+       float:left;
+       margin-left:5%;
+      
+   }
+
+  footer h3{
+      margin-right: 10%;
+      margin-top: -1%;
+  }
+  input[type="subbmit"]{
+      float:left;
+      
+      
+  }
+  
+
+
